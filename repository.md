@@ -20,13 +20,13 @@ cd existing-project
 git init
 git add --all
 git commit -m "Initial Commit"
-git remote add origin http://liangriyu@bitbucket.junengcloud.com/scm/data/tools.git
+git remote add origin https://github.com/liangriyu/flink-quickstart.git
 git push -u origin master
 ```
 My code is already tracked by Git
 If your code is already tracked by Git then set this repository as your "origin" to push to.
 ```
 cd existing-project
-git remote set-url origin http://liangriyu@bitbucket.junengcloud.com/scm/data/tools.git
+git remote set-url origin https://github.com/liangriyu/flink-quickstart.git
 git push -u origin master
 ```
