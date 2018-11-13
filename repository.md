@@ -14,7 +14,9 @@ If you want to simply clone this empty repository then run this command in your 
 git clone https://github.com/liangriyu/flink-quickstart.git
 ```
 My code is ready to be pushed
+
 如果你代码已经准备好推送到仓库，请在终端中执行该命令
+
 ```
 cd existing-project
 git init
@@ -29,4 +31,19 @@ If your code is already tracked by Git then set this repository as your "origin"
 cd existing-project
 git remote set-url origin https://github.com/liangriyu/flink-quickstart.git
 git push -u origin master
+```
+
+总结
+```
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
 ```
